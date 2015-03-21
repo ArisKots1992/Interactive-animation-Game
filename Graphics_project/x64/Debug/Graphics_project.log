@@ -1,0 +1,49 @@
+﻿Build started 24/12/2012 6:53:12 μμ.
+     1>Project "C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\Graphics_project\Graphics_project.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\x64\Debug\Graphics_project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\Graphics_project\gl" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\x64\Debug\Graphics_project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\x64\Debug\Graphics_project.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\visuals.obj
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMotionFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutIdleFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "void __cdecl Render(void)" (?Render@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glClearDepth referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glColorMaterial referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glDepthFunc referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glLightfv referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function "void __cdecl Render(void)" (?Render@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function "void __cdecl Render(void)" (?Render@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glPolygonMode referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glPopMatrix referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glPushMatrix referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glRotatef referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glScalef referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glShadeModel referenced in function "void __cdecl Setup(void)" (?Setup@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glTranslatef referenced in function "void __cdecl Render(void)" (?Render@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl Resize(int,int)" (?Resize@@YAXHH@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol gluPerspective referenced in function "void __cdecl Resize(int,int)" (?Resize@@YAXHH@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl Idle(void)" (?Idle@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl Render(void)" (?Render@@YAXXZ)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glutSolidSphere referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glutSolidCone referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glutSolidCube referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>visuals.obj : error LNK2019: unresolved external symbol __imp_glutSolidTorus referenced in function "void __cdecl create_character(float,float,float,float,float)" (?create_character@@YAXMMMMM@Z)
+     1>C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\x64\Debug\Graphics_project.exe : fatal error LNK1120: 38 unresolved externals
+     1>Done Building Project "C:\Users\Aris\Documents\Visual Studio 2012\Projects\Graphics_project\Graphics_project\Graphics_project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.24
